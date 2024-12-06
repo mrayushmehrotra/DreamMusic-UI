@@ -6,7 +6,7 @@ const NowPlaying = () => {
       <h2 className="text-lg font-bold mb-2">Now Playing</h2>
       <div className="flex items-center">
         <img
-          src="https://via.placeholder.com/100" // Replace with real image URL
+          src="/Micheal_Jackson_img.png" // Replace with real image URL
           alt="Song"
           className="w-16 h-16 rounded-md mr-4"
         />

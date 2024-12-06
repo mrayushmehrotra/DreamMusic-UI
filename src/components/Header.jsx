@@ -1,5 +1,5 @@
 import React from "react";
-
+import SearchComponent from "./SearchComponent";
 const Header = () => {
   return (
     <div className=" bg-[#520000] p-4 flex items-center justify-between">
@@ -17,11 +17,7 @@ const Header = () => {
           Radio
         </a>
       </nav>
-      <input
-        type="text"
-        placeholder="Search"
-        className="rounded-full px-4 py-2 bg-gray-800 text-white outline-none"
-      />
+      <SearchComponent />
     </div>
   );
 };

@@ -4,9 +4,15 @@ const ArtistDetails = () => {
   return (
     <div className="p-4 text-white">
       <div className="flex items-center">
+        <img src="/Background.png" />
         <img
-          src="https://via.placeholder.com/150" // Replace with real image URL
-          alt="Artist"
+          src="/Verified.png" // Replace with the actual image URL
+          alt="Verified"
+          className="rounded-lg w-48 h-48 mr-6"
+        />
+        <img
+          src="/Micheal_Jackson_img.png" // Replace with the actual image URL
+          alt="Michael Jackson"
           className="rounded-lg w-48 h-48 mr-6"
         />
         <div>
