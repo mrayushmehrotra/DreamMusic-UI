@@ -3,9 +3,9 @@ import { AiOutlineSearch } from "react-icons/ai"; // Using a search icon from re
 
 const Searchbar = () => {
   return (
-    <div className="flex items-center bg-[#1F1F1F] text-white rounded-full w-[400px] h-[50px] px-4">
+    <div className="flex items-center bg-[#2C0000] text-white rounded-full w-[400px] h-[50px] px-4">
       <input
-        className="bg-transparent text-white w-full h-full outline-none placeholder-gray-400 text-lg"
+        className="bg-transparent text-white w-full h-full outline-none placeholder-gray-500 "
         type="text"
         placeholder="Michael Jackson"
       />

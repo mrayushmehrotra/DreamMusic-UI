@@ -7,9 +7,9 @@ import NowPlaying from "./components/NowPlaying";
 
 const App = () => {
   return (
-    <div className="flex p-6 bg-gradient-to-b from-black to-gray-900 text-white h-screen">
+    <div className="flex  p-6 bg-gradient-to-b from-black to-gray-900 text-white h-screen">
       <Sidebar />
-      <div className="flex-1 flex flex-col">
+      <div className="flex-1 bg-gradient-to-b from-[#520000] to-[#2C0000] h-screen flex flex-col">
         <Header />
         <ArtistDetails />
         <SongTable />
