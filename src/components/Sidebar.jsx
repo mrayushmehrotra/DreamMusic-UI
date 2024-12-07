@@ -3,7 +3,7 @@ import React from "react";
 const Sidebar = () => {
   // TODO Fix UI Malfunction in future
   return (
-    <div className="bg-black text-white h-screen w-1/4 p-6 flex flex-col justify-between md:w-1/5 sm:w-full">
+    <div className="bg-black scale-105 text-white h-screen w-1/4 p-6 flex flex-col justify-between md:w-1/5 sm:w-full">
       <div>
         {/* Logo Section with Gap */}
         <div className="flex gap-x-6 mb-10">
