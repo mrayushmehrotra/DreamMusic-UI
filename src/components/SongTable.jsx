@@ -17,7 +17,7 @@ const songs = [
     id: "2",
     title: "Beat It",
     plays: "643,786,045",
-    audio:"https://commondatastorage.googleapis.com/codeskulptor-assets/Evillaugh.ogg",
+    audio:"https://commondatastorage.googleapis.com/codeskulptor-assets/week7-brrring.m4a",
     time: "4:18",
     album: "Thriller 25 Super Deluxe Edition",
     image: "https://i.ytimg.com/vi/USb2tN1Yq18/sddefault.jpg?v=5e777b79",
@@ -25,7 +25,7 @@ const songs = [
   {
     id: "3",
     title: "Smooth Criminal - 2012 Remaster",
-    audio:"https://commondatastorage.googleapis.com/codeskulptor-assets/Evillaugh.ogg",
+    audio:"https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/fx/engine-10.ogg",
     plays: "407,234,004",
     time: "4:17",
     album: "Bad 25th Anniversary Edition",
@@ -34,58 +34,15 @@ const songs = [
   {
     id: "4",
     title: "Don't Stop 'Til You Get Enough",
-    audio:"https://commondatastorage.googleapis.com/codeskulptor-assets/Evillaugh.ogg",
+    audio:"https://codeskulptor-demos.commondatastorage.googleapis.com/descent/background%20music.mp3",
     plays: "316,391,952",
     time: "6:05",
     album: "Off the Wall",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGxDPpDZOBGGOYmQnfm_2ZbVSXYrmP8apkgw&s",
   },
-  {
-    id: "5",
-    title: "Rock With You - Single Version",
-    audio:"https://commondatastorage.googleapis.com/codeskulptor-assets/Evillaugh.ogg",
-    plays: "268,187,21",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN6FqEr0p_uR760fuI8UyomfC92ihENufl_Q&s",
-  },
-  {
-    id: "6",
-    title: "Another Part of Me",
-    plays: "150,000,000",
-    time: "3:54",
-    audio:"https://commondatastorage.googleapis.com/codeskulptor-assets/Evillaugh.ogg",
-    album: "Bad",
-    image: "https://m.media-amazon.com/images/M/MV5BODlmNDE5NmYtNzJmYy00M2FjLTkyZGItN2ExMzgyYmIxYzlmXkEyXkFqcGc@._V1_.jpg",
-  },
-  {
-    id: "7",
-    title: "Human Nature",
-    audio:"https://commondatastorage.googleapis.com/codeskulptor-assets/Evillaugh.ogg",
-    plays: "200,000,000",
-    time: "4:05",
-    album: "Thriller",
-    image: "https://m.media-amazon.com/images/M/MV5BODlmNDE5NmYtNzJmYy00M2FjLTkyZGItN2ExMzgyYmIxYzlmXkEyXkFqcGc@._V1_.jpg",
+  
 
-  },
-  {
-    id: "8",
-    audio:"https://commondatastorage.googleapis.com/codeskulptor-assets/Evillaugh.ogg",
-    title: "Human Nature",
-    plays: "200,000,000",
-    time: "4:05",
-    album: "Thriller",
-    image: "https://m.media-amazon.com/images/M/MV5BODlmNDE5NmYtNzJmYy00M2FjLTkyZGItN2ExMzgyYmIxYzlmXkEyXkFqcGc@._V1_.jpg",
-
-  },
-  {
-    id: "9",
-    title: "Human Nature",
-    plays: "200,000,000",
-    audio:"https://commondatastorage.googleapis.com/codeskulptor-assets/Evillaugh.ogg",
-    time: "4:05",
-    album: "Thriller",
-    image: "https://m.media-amazon.com/images/M/MV5BODlmNDE5NmYtNzJmYy00M2FjLTkyZGItN2ExMzgyYmIxYzlmXkEyXkFqcGc@._V1_.jpg",
-
-  },
+ 
 ];
 
 const App = () => {
