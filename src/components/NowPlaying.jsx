@@ -66,7 +66,7 @@ const NowPlaying = () => {
   if (!song) return null;
 
   return (
-    <div className="bg-red-800 text-white p-9 rounded-xl shadow-lg max-w-sm min-w-full  mx-auto">
+    <div className="bg-[#6B0000] text-white p-9 rounded-xl shadow-lg max-w-sm min-w-full  mx-auto">
       <h2 className="text-center text-xl font-semibold mb-4">Now Playing</h2>
       <img
         src={song.image}

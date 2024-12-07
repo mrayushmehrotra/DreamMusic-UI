@@ -4,7 +4,7 @@ import React from "react";
 
 const ArtistDetails = () => {
   return (
-    <div className="w-[882px] h-[452px] flex items-center justify-center ml-10 top-[114px] left-[537px] gap-[0px]">
+    <div className="w-[882px] h-[400px] flex items-center justify-center ml-10 top-[104px] left-[537px] gap-[0px]">
 <div className="skin relative bottom-[-50px]  ">
 <img src="/Background.png"  />
 </div>

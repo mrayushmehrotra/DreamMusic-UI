@@ -15,7 +15,26 @@ body {
 
 
 .custom-highlight {
-  background: linear-gradient(to right, #ff0000 4px, #7b0f0f 4px, #7b0f0f 100%);
+  background: linear-gradient(to right, #ca0101 4px, #7b0f0f 4px, #7b0f0f 100%);
   color: white;
 }
 
+/* Apply to the entire document or specific container */
+.container {
+  overflow-y: scroll; /* Enable scrolling */
+  height: 280px; /* Adjust height */
+}
+
+/* Custom scrollbar styling */
+.container::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: #6B0000; /* Scrollbar thumb color */
+ 
+}
+
+.container::-webkit-scrollbar-track {
+  background-color: none; /* Background color of the scrollbar track */
+}

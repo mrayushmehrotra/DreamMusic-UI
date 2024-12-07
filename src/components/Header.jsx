@@ -2,7 +2,7 @@ import React from "react";
 import SearchComponent from "./SearchComponent";
 const Header = () => {
   return (
-    <div className="  font-[poppins] p-6 font-semibold ml-5 flex items-center justify-between">
+    <div className="  font-[poppins] p-4 font-semibold ml-5 flex items-center justify-between">
       <nav className="flex space-x-6 text-white">
         <a href="#" className="hover:underline">
           Music
